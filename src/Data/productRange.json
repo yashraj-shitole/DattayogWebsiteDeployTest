@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Agricultural Products",
+    "link": "agriculturalproducts",
+    "image": "https://images.unsplash.com/photo-1609583120830-7ede0764d401?q=80&w=2188&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "name": "Dairy Products",
+    "link": "dairyproducts",
+    "image": "https://images.unsplash.com/photo-1594731884638-8197c3102d1d?q=80&w=2350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "name": "Tomato processed products",
+    "link": "tomatoprocessedproducts",
+    "image": "https://images.unsplash.com/photo-1690877006361-1b2d6e48e82b?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

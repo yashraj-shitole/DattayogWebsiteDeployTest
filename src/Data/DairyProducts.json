@@ -1,0 +1,20 @@
+[
+    {
+    "id": 1,
+    "name": "Milk powder",
+    "image":"https://static.toiimg.com/thumb/74984743.cms?width=680&height=512&imgsize=963844",
+    "specification": {
+      "Type": "Whole, Skim, Instant",
+      "Moisture": "Low",
+      "Microbiology": "Meets importing country's safety standards",
+      "Packaging": "Multi-layer bags, drums, or as specified",
+      "Labeling": "Follows importing country's regulations",
+      "Certification": "May require HACCP, Kosher, etc."
+    },
+    "benefits": [
+      {"title": "Nutrient Fortification", "description": "Can be fortified with vitamins and minerals, improving nutrient intake."},
+      {"title": "Increased Shelf Life", "description": "Encourages milk consumption where access to fresh milk is limited, providing essential nutrients like calcium."}
+    ],
+    "description": "Milk powder is made by removing most of the water content from liquid milk through a drying process. It offers a long shelf life and versatility in various culinary and nutritional applications."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Jaggery powder",
+    "image":"https://images.unsplash.com/photo-1565498971161-42ae3dbcca75?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "specification": {
+      "Color": "Brown",
+      "Fat": "0.12 g/100g",
+      "Protein": "0.47g/100g",
+      "Carbohydrate": "95.32g/100g",
+      "Energy": "383.32 Kcal/100g",
+      "Sugar": "94.87g/100g",
+      "Moisture": "5.47g/100g",
+      "Packaging sizes": ["250 gms", "500 gms", "1 kg", "5 kg", "10kg", "30kg"],
+      "Health values": ["Gluten-Free", "High in Protein", "No Artificial Flavour", "No Preservatives", "Natural and Organic"],
+      "Production Capacity": "25000 kgs",
+      "Shelf Life": "18 Months",
+      "Delivery Time": {"India": "4-7 days", "Other countries": "10-20 days"}
+    },
+    "benefits": [
+      {"title": "Rich in Minerals", "description": "Contains essential minerals like iron, potassium, magnesium, and phosphorus."},
+      {"title": "Natural Sweetener", "description": "Healthier alternative with lower glycemic index, potentially causing less blood sugar spike."},
+      {"title": "Digestive Aid", "description": "May help stimulate digestive enzymes, promoting smoother digestion."},
+      {"title": "Detoxification", "description": "Believed to help cleanse the liver and remove toxins from the body."},
+      {"title": "Energy Boost", "description": "Contributes to increased energy levels with minerals and B vitamins."},
+      {"title": "Potential Immunity Booster", "description": "Presence of antioxidants and minerals like zinc and selenium might contribute to a stronger immune system."},
+      {"title": "Skin Health", "description": "Antioxidants may improve skin health by combating free radicals."}
+    ],
+    "description": "Jaggery powder is sunshine on your tongue! Made from pure sugarcane juice, it's a natural sweetener with a rich, caramel depth that goes beyond ordinary sugar. Imagine the warmth of molasses with a hint of earthiness, all in a convenient, easy-to-use powder. Not only does it tantalize your taste buds, but it boasts minerals and antioxidants, making it a guilt-free indulgence for your next culinary creation."
+  },
+  {
+    "id": 2,
+    "name": "Dry red chilly",
+    "image":"https://images.unsplash.com/photo-1654225370144-98089ccbfdbd?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "specification": {
+      "Color": "Deep red to bright red",
+      "Moisture": "10% maximum",
+      "Foreign Material": "Less than 2%",
+      "Broken/Damaged Pods": "Around 3% allowance",
+      "Capsaicin Content": "5,000 - 100,000 SHU",
+      "Loose seeds":"Maximum 2%",
+      "Packing":"Typically comes in 5, 10, 15, 20, 25 & 40 kg cartons, jute bags or polypropylene (PP) bags, or as per customer requirement."
+    },
+    "benefits": [
+      {"title": "Rich in Vitamins", "description": "Contains vitamins C and A, and potassium."},
+      {"title": "Anti-inflammatory Properties", "description": "May have anti-inflammatory properties."},
+      {"title": "Digestive Aid", "description": "May aid digestion."},
+      {"title": "Metabolism Boost", "description": "May boost metabolism and increase feelings of fullness."},
+      {"title": "Potential Pain Relief", "description": "May offer pain relief properties."}
+    ],
+    "variety":[
+      {"title": "Cayenne peppers", "description": "These are typically long and slender, with a deep red color. They are known for their intense heat."},
+      {"title": "Ancho peppers", "description": "These are large, wide peppers that are dried to a deep mahogany color. They have a smoky flavor and mild to moderate heat."},
+      {"title": "Guajillo peppers", "description": "These are long and narrow peppers with a deep red color. They have a fruity flavor and mild to moderate heat."}
+    ],
+    "description": "Dried red chilies are a vibrant red spice made from ripening and drying chili peppers of various species. They come in a variety of shapes and sizes, depending on the variety of chili pepper used."
+  },
+  {
+    "id": 3,
+    "name": "Wheat flour",
+    "image":"https://images.unsplash.com/photo-1627735483792-233bf632619b?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "specification": {
+      "Moisture": "11-14%",
+      "Ash Content": "0.5-0.65%",
+      "Granularity": "As per customer requirements",
+      "Color": "Whiter generally preferred",
+      "Extraneous Matter": "Absent",
+      "Microbiological": "Meets importing country's safety standards"
+    },
+    "description": "Wheat flour is a versatile ingredient used in various culinary applications, offering a range of textures and flavors depending on extraction levels. It's a staple in many cuisines worldwide."
+  },
+  {
+    "id": 4,
+    "name": "Milk powder",
+    "image":"https://static.toiimg.com/thumb/74984743.cms?width=680&height=512&imgsize=963844",
+    "specification": {
+      "Type": "Whole, Skim, Instant",
+      "Moisture": "Low",
+      "Microbiology": "Meets importing country's safety standards",
+      "Packaging": "Multi-layer bags, drums, or as specified",
+      "Labeling": "Follows importing country's regulations",
+      "Certification": "May require HACCP, Kosher, etc."
+    },
+    "benefits": [
+      {"title": "Nutrient Fortification", "description": "Can be fortified with vitamins and minerals, improving nutrient intake."},
+      {"title": "Increased Shelf Life", "description": "Encourages milk consumption where access to fresh milk is limited, providing essential nutrients like calcium."}
+    ],
+    "description": "Milk powder is made by removing most of the water content from liquid milk through a drying process. It offers a long shelf life and versatility in various culinary and nutritional applications."
+  }
+]

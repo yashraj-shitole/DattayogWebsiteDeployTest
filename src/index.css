@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Roboto", sans-serif;
+  color: #383838;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+*::selection {
+  color: #ffffff;
+  background:#6A9B31;
+}
