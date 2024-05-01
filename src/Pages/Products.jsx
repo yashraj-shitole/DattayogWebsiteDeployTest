@@ -118,6 +118,8 @@ const Products = () => {
             ))}
           </div>
         </div>
+        </Fade>
+
         <ScrollToTop
           style={{
             display: "flex",
@@ -129,7 +131,6 @@ const Products = () => {
           }}
           smooth
         />
-      </Fade>
     </div>
   );
 };

@@ -75,6 +75,8 @@ const Blogs = () => {
         activeClassName={"active"}
         initialPage={currentPage}
       />
+            </Fade>
+
 
       <ScrollToTop
         style={{
@@ -97,7 +99,6 @@ const Blogs = () => {
         }
       `}</style>
 
-      </Fade>
     </div>
   );
 };
