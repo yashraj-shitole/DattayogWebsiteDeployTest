@@ -264,6 +264,8 @@ const AboutUs = () => {
       </div>
 
       <ContactUsComponent />
+            </Fade>
+
       <ScrollToTop
         style={{
           display: "flex",
@@ -276,7 +278,6 @@ const AboutUs = () => {
         smooth
       />
 
-      </Fade>
     </div>
   );
 };
