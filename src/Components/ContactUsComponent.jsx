@@ -15,6 +15,13 @@ const ContactUsComponent = () => {
             className="border border-[#383838] rounded-full p-5 md:w-[400px] h-[50px]"
             placeholder="Enter your e-mail"
           />
+           <input
+            type="tel"
+            name="phone"
+            id="2"
+            className="border border-[#383838] rounded-full p-5 md:w-[400px] h-[50px]"
+            placeholder="Enter your contact number"
+          />
           <textarea
             type="text"
             name="message"

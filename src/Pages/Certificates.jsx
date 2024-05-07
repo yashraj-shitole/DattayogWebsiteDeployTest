@@ -53,7 +53,7 @@ const Certificates = () => {
               }}
               className={"w-[200px]"}
             />
-            <h1>CERTIFICATE OF INCORPORATION</h1>
+            <h1 className="font-bold">CERTIFICATE OF INCORPORATION</h1>
           </div>
 
           <div className="flex flex-col items-center">
@@ -66,7 +66,7 @@ const Certificates = () => {
               }}
               className={"w-[200px]"}
             />
-            <h1>IEC CODE</h1>
+            <h1 className="font-bold">IEC CODE</h1>
           </div>
 
           <ImgsViewer

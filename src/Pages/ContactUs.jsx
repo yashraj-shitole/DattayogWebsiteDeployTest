@@ -83,7 +83,7 @@ const ContactUs = () => {
                 Phone Number:
               </h1>
               <h1 className=" flex items-center text-sm    transition-all delay-100 ease-in-out ">
-                9876543216 / 9876576548
+               8623901776 / 7709611776
               </h1>
             </div>
           </div>

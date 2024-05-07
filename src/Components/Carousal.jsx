@@ -5,7 +5,7 @@ const Carousal = () => {
     <Carousel className="h-[50vh]  overflow-hidden" autoplaySpeed={5000} speed={2000} autoplay>
       <div className="h-[50vh] relative w-full ">
         <img
-          className="brightness-50 h-[50vh] w-full object-cover"
+          className="brightness-50 h-[50vh] w-full object-contain"
           src="https://images.unsplash.com/photo-1632776350300-11016768b521?q=80&w=2131&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
         />

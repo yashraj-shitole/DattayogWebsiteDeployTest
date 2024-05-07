@@ -53,7 +53,7 @@ export default function ProductCarousel() {
                 className="md:w-[300px] h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px] "
+                    className="object-contain h-[300px] "
                     alt="example"
                     src="https://images.unsplash.com/photo-1565498971161-42ae3dbcca75?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
                   />
@@ -70,7 +70,7 @@ export default function ProductCarousel() {
                 className="md:w-[300px]  h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px] "
+                    className="object-contain h-[300px] "
                     alt="example"
                     src="https://static.toiimg.com/thumb/74984743.cms?width=680&height=512&imgsize=963844"
                   />
@@ -85,7 +85,7 @@ export default function ProductCarousel() {
                 className="md:w-[300px]  h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px] "
+                    className="object-contain h-[300px] "
                     alt="example"
                     src="https://images.unsplash.com/photo-1602237514002-c2d8ae2da393?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   />
@@ -102,7 +102,7 @@ export default function ProductCarousel() {
                 className="md:w-[300px]  h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px] "
+                    className="object-contain h-[300px] "
                     alt="example"
                     src="https://images.unsplash.com/photo-1627735483792-233bf632619b?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   />
@@ -117,7 +117,7 @@ export default function ProductCarousel() {
                 className="md:w-[300px]  h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px] "
+                    className="object-contain h-[300px] "
                     alt="example"
                     src="https://img.freepik.com/free-photo/bottom-view-red-pepper-powder-wooden-spoon-black-surface_140725-102773.jpg?t=st=1714109853~exp=1714113453~hmac=b321602ae728075ed2ac9734ffec901c429b4fae6986a096f4fa38edaa3398fb&w=740"
                   />

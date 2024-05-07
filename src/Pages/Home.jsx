@@ -197,8 +197,8 @@ const Home = () => {
                 className="w-[300px] h-[400px]"
                 cover={
                   <img
-                    className="object-cover h-[300px]"
-                    alt="example"
+                    className="object-contain h-[300px]"
+                    alt={product.name}
                     src={product.image}
                   />
                 }
@@ -419,7 +419,7 @@ const Home = () => {
                 <div className="flex w-full lg:w-[100%] gap-5 p-5 rounded-2xl bg-secondary">
                   <div>
                     <div className="border b flex items-center justify-center w-[50px] h-[50px] bg-primary rounded-full">
-                      <h1 className="text-white font-extrabold text-xl">03</h1>
+                      <h1 className="text-white font-extrabold text-xl">02</h1>
                     </div>
                   </div>
                   <div className=" flex flex-col gap-5">

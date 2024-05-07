@@ -115,7 +115,7 @@ const Footer = () => {
                 Phone Number:
               </h1>
               <h1 className=" flex items-center text-sm font-light transition-all delay-100 ease-in-out text-white">
-                8623901776
+                8623901776 / 7709611776
               </h1>
             </div>
           </li>

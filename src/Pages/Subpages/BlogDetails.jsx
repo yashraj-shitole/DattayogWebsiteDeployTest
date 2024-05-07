@@ -38,8 +38,8 @@ const BlogDetails = () => {
           {blog.title}
         </h1>
       </div>
-      <div className="md:m-10 m-5 h-[40vh] overflow-hidden flex items-center rounded-3xl md:w-[80%] ">
-        <img className="object-cover w-full h-full" src={blog.image} alt="" />
+      <div className="md:m-10 m-5  justify-center flex items-center  rounded-3xl  ">
+        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain"  src={blog.image} alt="" />
       </div>
       <div className="p-10 md:p-20 flex flex-col items-center relative gap-10">
         <div className="flex flex-col items-center z-10 ">

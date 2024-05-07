@@ -31,8 +31,8 @@ const ProductDetails = () => {
           {product.name}
         </h1>
       </div>
-      <div className="md:m-10 m-5 h-[40vh] justify-center flex items-center overflow-hidden rounded-3xl md:w-[80%] ">
-        <img className="object-cover " src={product.image} alt="" />
+      <div className="md:m-10 m-5  justify-center flex items-center  rounded-3xl  ">
+        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain" src={product.image} alt="" />
       </div>
 
       <div className="p-10 md:p-20 flex flex-col items-center relative gap-10">
