@@ -48,7 +48,7 @@ export default function ProductCarousel() {
         >
           <ul className=" h-fit whitespace-no-wrap flex-no-wrap  [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full  p-0">
             <li className="">
-              <CardExpandable image="https://images.unsplash.com/photo-1565498971161-42ae3dbcca75?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Jaggery powder" tableData={{  
+              <CardExpandable image="https://5.imimg.com/data5/SELLER/Default/2021/4/QA/IY/OW/80800295/brown-jaggery-powder-500x500.png" title="Jaggery powder" tableData={{  
                   "Color": "Brown",
                   "Fat": "0.12 g/100g",
                   "Protein": "0.47g/100g",
