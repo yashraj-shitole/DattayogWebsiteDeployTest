@@ -1,5 +1,4 @@
 import Glide from "@glidejs/glide";
-import { Card } from "antd";
 import { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
@@ -11,7 +10,7 @@ export default function ProductCarousel() {
     const slider = new Glide(".glide-01", {
       type: "carousel",
       focusAt: "center",
-      perView: 4,
+      perView: 3,
       autoplay: 3000,
       animationDuration: 700,
       gap: 24,
@@ -134,7 +133,6 @@ export default function ProductCarousel() {
       </div>
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
-      {/*<!-- End Carousel with controls inside --> */}
     </>
   );
 }
@@ -142,24 +140,3 @@ export default function ProductCarousel() {
 
 
 
-const Cards = ({ image, title, details }) => {
-  const [expanded, setExpanded] = useState(false);
-
-  return (
-    <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-lg">
-      <img className="w-full" src={image} alt="Card" />
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        {expanded && <p className="text-gray-700 text-base">{details}</p>}
-      </div>
-      <div className="px-6 pt-4 pb-2">
-        <button
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-          onClick={() => setExpanded(!expanded)}
-        >
-          {expanded ? 'Collapse' : 'Expand'}
-        </button>
-      </div>
-    </div>
-  );
-};

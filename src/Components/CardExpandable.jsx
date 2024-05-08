@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import PropTypes from "prop-types";
 
 
@@ -16,8 +16,7 @@ const CardExpandable = ({ image, title,  tableData }) => {
       <img className="w-full object-contain max-h-[300px]" src={image} alt="Card" />
       <h1 className="font-bold p-3 text-xl mb-2">{title}</h1>
 
-        {expanded && (
-          <div className="absolute top-0 z-50 bg-white w-full px-5 left-0 ">
+          <div className={`absolute transition-all ease-in-out delay-400 ${expanded ? 'opacity-100 h-fit': 'opacity-0 h-[0px] overflow-hidden'}  top-0 z-50 bg-white w-full px-5 left-0 `}>
                               <h1 className="font-bold pt-2">Specifications</h1>
 
             <table className="mt-4 m-1 w-full">
@@ -33,7 +32,6 @@ const CardExpandable = ({ image, title,  tableData }) => {
               </tbody>
             </table>
           </div>
-        )}
      
       </button>
 
