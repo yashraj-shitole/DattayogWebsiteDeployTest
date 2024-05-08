@@ -8,7 +8,7 @@ const CardExpandable = ({ image, title,  tableData }) => {
 
 
   return (
-    <div className="md:w-[400px] p-5 h-[400px] items-center w-full mx-auto relative overflow-scroll   bg-white rounded-xl  shadow-lg">
+    <div className="md:w-[400px] border border-[#38383820] p-5 h-[400px] items-center w-full mx-auto relative overflow-scroll   bg-white rounded-xl  shadow-lg">
        <button
           className="flex w-full flex-col items-center justify-between  h-full"
           onClick={() => setExpanded(!expanded)}
