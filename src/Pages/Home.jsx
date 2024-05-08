@@ -93,11 +93,12 @@ const Home = () => {
             <div className="m-5 h-[2px] w-[100px] md:w-[200px] bg-primary"></div>
           </div>
 
-          <div className="p-5 md:pb-10 flex gap-5 w-full overflow-x-scroll">
-            <ProductCarousel />
-          </div>
-        </div>
+            <ProductCarousel/>
 
+        </div>
+        
+
+        
         {/* Why choose us */}
 
         <div className="bg-secondary rounded-3xl p-10 h-fit ">

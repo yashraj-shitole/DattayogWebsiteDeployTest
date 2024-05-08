@@ -41,7 +41,7 @@ const Products = () => {
           <div className="lg:w-[50%]  lg:flex rounded-3xl overflow-hidden">
             <img
               className="h-full  object-cover"
-              src="https://scontent.fklh1-1.fna.fbcdn.net/v/t39.30808-6/437561408_122118491138256135_3919475560939788018_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ad8iEAMzHysQ7kNvgHMuFxM&_nc_ht=scontent.fklh1-1.fna&oh=00_AfCv4OpsIQHM96TFZfNQPfaUS0dr_xrJ7d_KIQrxDxoNwA&oe=6636D6CA"
+              src="https://plus.unsplash.com/premium_photo-1663040095831-488294fca027?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
             />
           </div>
