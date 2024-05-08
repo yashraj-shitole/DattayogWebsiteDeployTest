@@ -85,7 +85,7 @@ const Home = () => {
         </div>
 
         {/* Popular Products */}
-        <div className="flex px-5 md:pb-10 w-full  flex-col items-center relative md:gap-10">
+        <div className="flex p-5 md:pb-10 w-full  flex-col items-center relative md:gap-10">
           <div className="flex flex-col items-center z-10 ">
             <h1 className=" text-2xl md:text-4xl text-center font-semibold">
               Popular Products
