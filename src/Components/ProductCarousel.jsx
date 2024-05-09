@@ -11,7 +11,7 @@ export default function ProductCarousel() {
       type: "carousel",
       focusAt: "center",
       perView: 3,
-      autoplay: 3000,
+      autoplay: 5000,
       animationDuration: 700,
       gap: 24,
       classNames: {
@@ -65,7 +65,7 @@ export default function ProductCarousel() {
 
 
                         <li>
-                        <CardExpandable image="https://images.unsplash.com/photo-1654225370144-98089ccbfdbd?q=80&w=2360&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Dry red chilly" tableData={{  
+                        <CardExpandable image="https://t4.ftcdn.net/jpg/01/81/89/57/360_F_181895708_TBjyYljnfHiWfcdzk1kafqCNWnqcmd26.jpg" title="Dry red chilly" tableData={{  
                           "Color": "Deep red to bright red",
                           "Moisture": "10% maximum",
                           "Foreign Material": "Less than 2%",
@@ -76,7 +76,7 @@ export default function ProductCarousel() {
                         }} />
             </li>
             <li>
-            <CardExpandable image="https://images.unsplash.com/photo-1627735483792-233bf632619b?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="Wheat flour" tableData={{  
+            <CardExpandable image="https://erb.codeblazar.com/wp-content/uploads/2019/03/Wheat-Flour.jpg" title="Wheat flour" tableData={{  
                            "Moisture": "11-14%",
                            "Ash Content": "0.5-0.65%",
                            "Granularity": "As per customer requirements",
@@ -86,7 +86,7 @@ export default function ProductCarousel() {
                             }} />
             </li>
             <li>
-            <CardExpandable image="https://static.toiimg.com/thumb/74984743.cms?width=680&height=512&imgsize=963844" title="Milk powder" tableData={{  
+            <CardExpandable image="https://images.herzindagi.info/image/2022/Aug/milk-powder-storing-tips.jpg" title="Milk powder" tableData={{  
                           "Type": "Whole, Skim, Instant",
                           "Moisture": "Low",
                           "Microbiology": "Meets importing country's safety standards",

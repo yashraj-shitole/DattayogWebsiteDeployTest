@@ -47,7 +47,7 @@ const Blogs = () => {
               className="flex flex-col "
               cover={
                 <img
-                  className="object-contain w-100% rounded-3xl md:h-[400px]  "
+                  className="object-contain md:p-5 w-100% rounded-3xl md:h-[400px]  "
                   alt="example"
                   src={blog.image}
                 />
