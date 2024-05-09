@@ -18,7 +18,7 @@ const CardExpandable = ({ image, title,  tableData }) => {
 
           <div className={`absolute transition-all ease-in-out delay-400 ${expanded ? 'opacity-100 h-fit': 'opacity-0 h-[0px] overflow-hidden'}  top-0 z-50 bg-white w-full px-5 left-0 `}>
                               <h1 className="font-bold pt-2">{title} Specifications</h1>
-
+                              
             <table className="mt-4 m-1 w-full">
               <tbody>
                 {Object.entries(tableData).map(([key, value]) => (
