@@ -65,7 +65,7 @@ const ContactUs = () => {
                 Email:
               </h1>
               <h1 className=" flex items-center text-sm  transition-all delay-100 ease-in-out ">
-                goodfoods@gmail.com
+                dattyog.farmer@gmail.com
               </h1>
             </div>
           </div>
