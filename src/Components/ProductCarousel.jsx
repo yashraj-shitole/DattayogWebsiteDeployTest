@@ -96,7 +96,7 @@ export default function ProductCarousel() {
                            }} />
             </li>
             <li>
-            <CardExpandable image="https://img.freepik.com/free-photo/whole-cut-tomatoes-glass-tomato-juice-blue-background_114579-5115.jpg?t=st=1715187837~exp=1715191437~hmac=b22def070280e11eb33a2e25beb1709d131e83bbec612812d8b40b3d784c8797&w=1480" title="Tomato Paste" tableData={{  
+            <CardExpandable image="https://img.freepik.com/premium-photo/bottle-tomato-sauce-closeup_181303-1018.jpg?size=626&ext=jpg&ga=GA1.1.375099208.1717667132&semt=ais_user" title="Tomato Paste" tableData={{  
                           "Color": "Deep red",
                           "pH": "4.2 to 4.6",
                           "Consistency": "Thick and concentrated",
