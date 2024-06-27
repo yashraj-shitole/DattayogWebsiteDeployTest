@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import SocialMedia from "../Components/SocialMedia";
-
 const ContactUs = () => {
   const [state, setState] = useState({
     Name: "",
