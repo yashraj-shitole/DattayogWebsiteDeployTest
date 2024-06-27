@@ -81,7 +81,7 @@ const Certificates = () => {
               }}
               className={"w-[200px]"}
             />
-            <h1 className="font-bold">IEC CODE</h1>
+            <h1 className="font-bold">GST</h1>
           </div>
 
           <ImgsViewer
