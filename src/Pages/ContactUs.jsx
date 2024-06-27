@@ -93,7 +93,7 @@ const ContactUs = () => {
           </div>
 
           <div className="flex items-center justify-center">
-             <Link to='' className="bg-white rounded-full w-fit px-5 py-2  flex gap-5 items-center justify-center">
+             <Link to='https://maps.app.goo.gl/tTPV1mApV9x9xnW5A' className="bg-white rounded-full w-fit px-5 py-2  flex gap-5 items-center justify-center">
             <h1 className="text-lg font-bold ">Google Business</h1>
           <img  src="https://img.icons8.com/?size=256&amp;id=4y5FyfJdxJ3h&amp;format=png" width="50" height="50" alt="My Business icon" />
           </Link>
