@@ -103,7 +103,7 @@ const ContactUs = () => {
         </div>
 
         <form
-          action="https://formspree.io/f/mbjnpvkq"
+          action="https://formspree.io/f/mpwaaear"
           method="POST"
           className="flex flex-col"
         >
