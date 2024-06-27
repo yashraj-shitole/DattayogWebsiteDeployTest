@@ -5,7 +5,7 @@ const ContactUsComponent = () => {
       <div className="flex flex-col gap-5 p-2 w-[80%] items-center">
         <form
           className="flex flex-col gap-5 "
-          action="https://formspree.io/f/mbjnpvkq"
+          action="https://formspree.io/f/mpwaaear"
           method="POST"
         >
           <input
