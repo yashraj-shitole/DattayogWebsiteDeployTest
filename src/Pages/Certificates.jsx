@@ -77,7 +77,7 @@ const Certificates = () => {
               alt="image"
               onClick={() => {
                 setIsOpen(true);
-                setCurrImg(1);
+                setCurrImg(2);
               }}
               className={"w-[200px]"}
             />
