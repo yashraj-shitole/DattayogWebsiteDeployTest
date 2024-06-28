@@ -8,6 +8,7 @@ import ProductCarousel from "../Components/ProductCarousel";
 import products from "../Data/products.json";
 import videodata from "../Data/videos.json";
 import { Fade } from "react-awesome-reveal";
+import plantimg from "../assets/plant.png"
 
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
@@ -46,7 +47,7 @@ const Home = () => {
             <div className=" flex px-5  bg-white py-10 md:py-29 lg:py-32 rounded-t-3xl flex-col items-center relative ">
               <img
                 className="object-cover top-1/2 md:top-1/3 w-[80vw] md:w-[40vw]  absolute opacity-20 md:opacity-20 z-0 right-0"
-                src="src\assets\plant.png"
+                src={plantimg}
                 alt=""
               />
               <div className="flex flex-col items-center z-10 ">
@@ -78,6 +79,7 @@ const Home = () => {
                     to serving farmers to the best of our ability, we leverage
                     government schemes for their welfare.
                   </p>
+                  <h1 className="font-semibold text-primary text-lg">Free samples available. <span className="font-normal">Logistic charges applicable.</span></h1>
                 </div>
               </div>
             </div>
@@ -299,11 +301,7 @@ const Home = () => {
                     schemes for the betterment of farmers underscores their
                     commitment to the agricultural community.
                   </h1>
-                  {/* <img alt="testimonial" src="" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-gray-900">Jon doe</span>
-                  <span className="text-gray-500 text-sm">DESIGNER</span>
-                </span> */}
+                  
                 </div>
               </div>
 
@@ -507,21 +505,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="px-5 py-20  gap-5 items-center flex flex-col">
-        <div className="flex flex-col items-center z-10 ">
-          <h1 className=" text-2xl md:text-4xl text-center font-semibold">
-            Our Clients
-          </h1>
-          <div className="m-5 h-[2px] w-[100px] md:w-[200px] bg-primary"></div>
-        </div>
-
-        <div className="flex flex-col md:flex-row gap-10 w-[100%]  justify-evenly">
-          <img src="https://Goodfoods.com/img/logo/BOX%208.jpg" alt="" />
-          <img src="https://Goodfoods.com/img/logo/cii-foundation.png" alt="" />
-          <img src="https://Goodfoods.com/img/logo/cyda.png" alt="" />
-        </div>
-      </div> */}
 
         <div className="flex items-cente justify-center p-5">
           <ContactUsComponent />

@@ -48,7 +48,7 @@ const Certificates = () => {
           <div className="flex flex-col items-center">
             <img
               src={c1}
-              alt="image"
+              alt="CERTIFICATE OF INCORPORATION"
               onClick={() => {
                 setIsOpen(true);
                 setCurrImg(0);
@@ -61,7 +61,7 @@ const Certificates = () => {
           <div className="flex flex-col items-center">
             <img
               src={c2}
-              alt="image"
+              alt="IEC CODE"
               onClick={() => {
                 setIsOpen(true);
                 setCurrImg(1);
@@ -74,7 +74,7 @@ const Certificates = () => {
           <div className="flex flex-col items-center">
             <img
               src={c3}
-              alt="image"
+              alt="GST"
               onClick={() => {
                 setIsOpen(true);
                 setCurrImg(2);

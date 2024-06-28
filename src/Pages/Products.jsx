@@ -42,7 +42,7 @@ const Products = () => {
             <img
               className="h-full  object-cover"
               src="https://plus.unsplash.com/premium_photo-1663040095831-488294fca027?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt=""
+              alt="products"
             />
           </div>
           <div className="  lg:w-[100%] flex flex-col gap-5">
@@ -66,7 +66,10 @@ const Products = () => {
               support throughout the farming process, from cultivation to
               processing, ultimately leading to improved livelihoods and
               sustainable agricultural practices in the Shirol taluka area.
+              <h1 className="font-semibold text-primary text-lg">Free samples available. <span className="font-normal">Logistic charges applicable.</span></h1>
+
             </p>
+            
           </div>
         </div>
 

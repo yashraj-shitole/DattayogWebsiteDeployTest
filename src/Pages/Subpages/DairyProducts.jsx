@@ -50,7 +50,7 @@ const DairyProducts = () => {
 
         <div className="flex w-full flex-col lg:flex-row gap-10 lg:gap-0 items-center  ">
         <div className="lg:w-[50%]  lg:flex rounded-3xl overflow-hidden">
-            <img className="h-full object-cover" src="https://images.unsplash.com/photo-1440428099904-c6d459a7e7b5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className="h-full object-cover" src="https://images.unsplash.com/photo-1440428099904-c6d459a7e7b5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dairy Products" />
           </div>
         <div className=" lg:w-[80%] flex flex-col gap-5 ">
           <p className="text-lg lg:px-20  text-[#525252]">
@@ -116,7 +116,7 @@ const DairyProducts = () => {
                 cover={
                   <img
                     className="object-cover w-[300px] h-[300px]"
-                    alt="example"
+                    alt={product.name}
                     src={product.image}
                   />
                 }

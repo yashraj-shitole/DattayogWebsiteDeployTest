@@ -1,9 +1,9 @@
 import { Card } from "antd";
 import { useEffect, useState } from "react";
+import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-to-top";
 import productsData from "../../Data/Tomatoprocessedproducts.json";
-import { Fade } from "react-awesome-reveal";
 
 const Tomatoprocessedproducts = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -47,7 +47,7 @@ const Tomatoprocessedproducts = () => {
         </div>
         <div className="flex w-full flex-col lg:flex-row gap-10 lg:gap-0 items-center  ">
         <div className="lg:w-[50%]  lg:flex rounded-3xl overflow-hidden">
-            <img className="h-full object-cover" src="https://images.unsplash.com/photo-1568581789190-ae90a7da930b?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className="h-full object-cover" src="https://images.unsplash.com/photo-1568581789190-ae90a7da930b?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tomato Processed Products" />
           </div>
         <div className=" lg:w-[80%] flex flex-col gap-5 ">
           <p className="text-lg lg:px-20  text-[#525252]">
@@ -115,7 +115,7 @@ const Tomatoprocessedproducts = () => {
                 cover={
                   <img
                     className="object-cover w-[300px] h-[300px]"
-                    alt="example"
+                    alt={product.name}
                     src={product.image}
                   />
                 }
