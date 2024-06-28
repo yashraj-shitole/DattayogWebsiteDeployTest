@@ -79,7 +79,7 @@ const Home = () => {
                     to serving farmers to the best of our ability, we leverage
                     government schemes for their welfare.
                   </p>
-                  <h1 className="font-semibold text-primary text-lg">Free samples available. <span className="font-normal">Logistic charges applicable.</span></h1>
+                  <h1 className="font-extrabold text-primary text-lg">Free samples available. <span className="font-normal">Logistic charges applicable.</span></h1>
                 </div>
               </div>
             </div>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/about</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/certificates</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/products</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/contact</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/blogs</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/products/agriculturalproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/products/dairyproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/products/tomatoprocessedproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/agriculturalproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/dairyproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://dattayog-website-deploy-test.vercel.app/tomatoprocessedproducts</loc>
+	<lastmod>2024-06-28T16:34:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
