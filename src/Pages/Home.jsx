@@ -33,7 +33,7 @@ const Home = () => {
           className=" bg-fixed bg-right transition-all  rounded-t-3xl overflow-hidden  w-full "
         >
           <div className="relative bg-[#000] bg-opacity-50 h-[40vh]">
-            <h1 className=" text-3xl md:text-6xl text-center text-[#f6f6f6] font-bold absolute z-50 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <h1 className=" text-3xl md:text-4xl lg:text-6xl text-center text-[#f6f6f6] font-bold absolute z-50 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Dattayog Farmer Producer Company
             </h1>
             <h1 className="text-xl md:text-3xl text-center text-[#f6f6f6] font-semibold absolute z-50 top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
