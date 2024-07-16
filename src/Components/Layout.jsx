@@ -3,8 +3,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import ScrollToTopOnRouteChange from "./ScrollToTopOnRouteChange";
 
-import { SpeedInsights } from "@vercel/speed-insights/react"
-
 const Layout = () => {
   return (
    <div className="flex flex-col relative">
@@ -14,7 +12,6 @@ const Layout = () => {
    <Outlet/>
    <Footer/>
 
-    <SpeedInsights/>
    <ScrollToTopOnRouteChange/>
    </div>
   )
