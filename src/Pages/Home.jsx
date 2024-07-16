@@ -8,6 +8,7 @@ import ProductCarousel from "../Components/ProductCarousel";
 import products from "../Data/products.json";
 import videodata from "../Data/videos.json";
 import { Fade } from "react-awesome-reveal";
+import plantimg from "../assets/plant.png"
 
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
@@ -32,7 +33,7 @@ const Home = () => {
           className=" bg-fixed bg-right transition-all  rounded-t-3xl overflow-hidden  w-full "
         >
           <div className="relative bg-[#000] bg-opacity-50 h-[40vh]">
-            <h1 className=" text-3xl md:text-6xl text-center text-[#f6f6f6] font-bold absolute z-50 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <h1 className=" text-3xl md:text-4xl lg:text-6xl text-center text-[#f6f6f6] font-bold absolute z-50 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Dattayog Farmer Producer Company
             </h1>
             <h1 className="text-xl md:text-3xl text-center text-[#f6f6f6] font-semibold absolute z-50 top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -46,7 +47,7 @@ const Home = () => {
             <div className=" flex px-5  bg-white py-10 md:py-29 lg:py-32 rounded-t-3xl flex-col items-center relative ">
               <img
                 className="object-cover top-1/2 md:top-1/3 w-[80vw] md:w-[40vw]  absolute opacity-20 md:opacity-20 z-0 right-0"
-                src="src\assets\plant.png"
+                src={plantimg}
                 alt=""
               />
               <div className="flex flex-col items-center z-10 ">
@@ -78,6 +79,7 @@ const Home = () => {
                     to serving farmers to the best of our ability, we leverage
                     government schemes for their welfare.
                   </p>
+                  <h1 className="font-extrabold text-primary text-lg">Free samples available. <span className="font-normal">Logistic charges applicable.</span></h1>
                 </div>
               </div>
             </div>
@@ -299,11 +301,7 @@ const Home = () => {
                     schemes for the betterment of farmers underscores their
                     commitment to the agricultural community.
                   </h1>
-                  {/* <img alt="testimonial" src="" className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"/>
-                <span className="flex-grow flex flex-col pl-4">
-                  <span className="title-font font-medium text-gray-900">Jon doe</span>
-                  <span className="text-gray-500 text-sm">DESIGNER</span>
-                </span> */}
+                  
                 </div>
               </div>
 
@@ -389,6 +387,7 @@ const Home = () => {
             <div className="w-[40%] hidden lg:flex rounded-3xl overflow-hidden">
               <img
                 className="h-full object-cover"
+                loading="lazy"
                 src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
@@ -507,21 +506,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="px-5 py-20  gap-5 items-center flex flex-col">
-        <div className="flex flex-col items-center z-10 ">
-          <h1 className=" text-2xl md:text-4xl text-center font-semibold">
-            Our Clients
-          </h1>
-          <div className="m-5 h-[2px] w-[100px] md:w-[200px] bg-primary"></div>
-        </div>
-
-        <div className="flex flex-col md:flex-row gap-10 w-[100%]  justify-evenly">
-          <img src="https://Goodfoods.com/img/logo/BOX%208.jpg" alt="" />
-          <img src="https://Goodfoods.com/img/logo/cii-foundation.png" alt="" />
-          <img src="https://Goodfoods.com/img/logo/cyda.png" alt="" />
-        </div>
-      </div> */}
 
         <div className="flex items-cente justify-center p-5">
           <ContactUsComponent />

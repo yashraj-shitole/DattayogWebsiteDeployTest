@@ -83,7 +83,7 @@ const Navbar = () => {
           <img
             className="object-cover w-[70px]  md:w-[90px] h-auto md:h-auto"
             src={logo}
-            alt=""
+            alt="logo"
           />
         </Link>
       </div>

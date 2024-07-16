@@ -32,7 +32,7 @@ const ProductDetails = () => {
         </h1>
       </div>
       <div className="md:m-10 m-5  justify-center flex items-center  rounded-3xl  ">
-        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain" src={product.image} alt="" />
+        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain" src={product.image} alt={product.name} />
       </div>
 
       <div className="p-10 md:p-20 flex flex-col items-center relative gap-10">

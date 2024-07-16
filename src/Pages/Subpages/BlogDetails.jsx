@@ -39,7 +39,7 @@ const BlogDetails = () => {
         </h1>
       </div>
       <div className="md:m-10 m-5  justify-center flex items-center  rounded-3xl  ">
-        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain"  src={blog.image} alt="" />
+        <img className="w-[60vw] md:h-[60vh] rounded-3xl object-contain"  src={blog.image} alt={blog.title} />
       </div>
       <div className="p-10 md:p-20 flex flex-col items-center relative gap-10">
         <div className="flex flex-col items-center z-10 ">

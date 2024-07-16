@@ -5,7 +5,9 @@ import ScrollToTop from "react-scroll-to-top";
 import ContactUsComponent from "../Components/ContactUsComponent";
 
 import c1 from "../assets/Certificates/CERTIFICATE OF INCORPORATION_page-0001.jpg";
+import c3 from "../assets/Certificates/GST.jpg";
 import c2 from "../assets/Certificates/IEC CODE_page-0001.jpg";
+
 
 const Certificates = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +48,7 @@ const Certificates = () => {
           <div className="flex flex-col items-center">
             <img
               src={c1}
-              alt="image"
+              alt="CERTIFICATE OF INCORPORATION"
               onClick={() => {
                 setIsOpen(true);
                 setCurrImg(0);
@@ -59,7 +61,7 @@ const Certificates = () => {
           <div className="flex flex-col items-center">
             <img
               src={c2}
-              alt="image"
+              alt="IEC CODE"
               onClick={() => {
                 setIsOpen(true);
                 setCurrImg(1);
@@ -69,6 +71,19 @@ const Certificates = () => {
             <h1 className="font-bold">IEC CODE</h1>
           </div>
 
+          <div className="flex flex-col items-center">
+            <img
+              src={c3}
+              alt="GST"
+              onClick={() => {
+                setIsOpen(true);
+                setCurrImg(2);
+              }}
+              className={"w-[200px]"}
+            />
+            <h1 className="font-bold">GST</h1>
+          </div>
+
           <ImgsViewer
             imgs={[
               {
@@ -76,6 +91,9 @@ const Certificates = () => {
               },
               {
                 src: `${c2}`,
+              },
+              {
+                src: `${c3}`,
               },
             ]}
             currImg={currImg}
